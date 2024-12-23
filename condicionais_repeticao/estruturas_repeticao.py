@@ -43,11 +43,16 @@
 #     print("Obrigado por usar nosso sistema bancário, até logo.")
 
 
-opcao = -1
-while opcao != 0:
-    opcao = int(input("Informe um número: "))
+# opcao = -1
+# while opcao != 0:
+#     opcao = int(input("Informe um número: "))
 
-    if opcao == 10:
-        break
-    print(opcao)
+#     if opcao == 10:
+#         break
+#     print(opcao)
+
 #Apenas validando um break como em switch case em JS, como o continue, que pula algo dentro do laço
+
+for numero in range(51):
+    if numero % 2 == 0:
+        print(numero, end=" ")
