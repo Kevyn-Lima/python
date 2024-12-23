@@ -50,4 +50,4 @@ while opcao != 0:
     if opcao == 10:
         break
     print(opcao)
-#Apenas validando um break como em switch case em JS.
+#Apenas validando um break como em switch case em JS, como o continue, que pula algo dentro do laço
