@@ -9,3 +9,5 @@ print("Python" in curso)
 print("maçã" not in frutas)
 
 print(200 in saques)
+
+# Em cima realizamos uma validação para validar se algo está naquela sequência.
