@@ -4,11 +4,8 @@ curso = "Curso de Python"
 nome_curso = curso
 saldo, limite = 200, 200
 
-validacao = curso is nome_curso
-print(validacao)
+print(curso is nome_curso)
 
-validacao = curso is not nome_curso
-print(validacao)
+print(curso is not nome_curso)
 
-validacao = saldo is limite
-print(validacao)
+print(saldo is limite)
