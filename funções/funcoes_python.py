@@ -42,4 +42,28 @@ def exibir_poema(data_extenso, *args, **kwargs):
     mensagem = f"{data_extenso}\n\n{texto}\n\n{meta_dados}"
     print(mensagem)
 
-exibir_poema("Segunda-Feira, 23 de Dezembro 2024","Zen of Python", "Beautiful is better than ugly.", autor = "Tim Peters", ano=1999)
+exibir_poema("Segunda-Feira, 23 de Dezembro 2024","Zen of Python", "Beautiful is better than ugly.", autor = "Tim Peters", ano = 1999)
+
+#Mais um exemplo de uma função
+
+def somar(a,b):
+    return a + b
+
+def exibir_resultado(a, b, funcao):
+    resultado = funcao(a, b)
+    print(f"O resultado da operacao {a} + {b} = {resultado}")
+
+exibir_resultado(10, 25, somar)
+
+
+#Varivaveis de escopo global
+
+salario = 2000
+
+def salario_bonus(bonus):
+    global salario
+    salario += bonus
+    return salario
+salario_com_bonus = salario_bonus(500)
+
+print(salario_com_bonus)
