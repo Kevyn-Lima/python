@@ -12,6 +12,9 @@
 #range(stop) -> range object
 #range(start, stop[, step]) -> range object
 
+import sys
+
+
 print(list(range(4)))
 
 #Utilizando range com for
@@ -24,3 +27,17 @@ print(" ")
 
 for numero in range(0, 51, 5):
     print(numero, end=" ")
+
+print(" ")
+#Comando While em python
+
+opcao = -1
+while opcao !=0:
+    opcao = int(input("[1] Sacar\n[2] Extrato \n[0] Sair \n: "))
+
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo...")
+else:
+    print("Obrigado por usar nosso sistema bancário, até logo.")
