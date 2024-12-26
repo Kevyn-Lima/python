@@ -28,3 +28,18 @@ for carro in carros:
 
 for indice, carro in enumerate(carros):
     print(f"{indice}: {carro}")
+
+#Filtros, bem parecido com o map em JS.
+
+numeros = [1, 30, 21, 2, 9, 65, 34]
+pares = []
+for numero in numeros:
+    if numero % 2 == 0:
+        pares.append(numero)
+print(pares)
+
+#Outra forma de ser realizado tal ação, seria pelo comprehension
+
+impares = [numero for numero in numeros if numero % 2 != 0]
+
+print(impares)
