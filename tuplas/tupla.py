@@ -18,4 +18,6 @@ print(frutas[2])
 
 #Existe uma matriz de tupla, sendo tuplas aninhadas.
 
-#fatiamento, exatamente igual a array
+#fatiamento, exatamente igual a array, posso utilizar o for, e o enumerate para saber do index.
+
+#Principal diferença os métodos, uma vez que é imutavel, tendo os métodos count(), index(), len().
